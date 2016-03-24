@@ -38,4 +38,8 @@ public class Crime {
     public void setDate(Date Date) {
         mDate = Date;
     }
+
+    public UUID getId(){
+        return mId;
+    }
 }
